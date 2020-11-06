@@ -1,1 +1,7 @@
-This is a simple Laravel app test with login and TDD Username: alta.paucek@example.org Password: secret
+This is a simple Laravel app test with login and TDD Username.
+
+To test it, create a fake user:
+php artisan tinker
+factory('App\User')->create()
+
+After create it, will be displayed the email (username) and Password will be 'secret'
