@@ -1,4 +1,4 @@
-This is a simple Laravel app test with login and TDD Username.
+This is a simple Laravel app test with login and TDD.
 
 To test it, create a fake user:
 php artisan tinker
